@@ -126,23 +126,19 @@
 // }
 
 
+// let a=5;         //question no =3
 
-
-// for (let i = 1; i <=9; i+=2) {            //question no =3
-
-//         let star=""
-//         for (let j = 9; j>=i; j-=2) {
-
-//              star =star+" ";     
-//             }
-//             for (let k= 1 ; k <=i; k++) {
-
-//                 star+="*";
-//         }
-
-//         console.log(star);
-
+// for (let i = 1; i <=a; i++) {
+//     let star=""
+//     for (let j = a-1; j >=1; j--) {
+//         star+=""  
 //     }
+//     for (let k = 1; k <=2*i-1; k++) {
+//         star+="*"
+//     }
+//     console.log(star);
+    
+// }
 
 
 
@@ -170,32 +166,141 @@
 // }
 
 
-
-
-
-
-// let a = 9;
-
-// for (let i = 1; i <= a; i += 2) {            //question no =6
-//     let star = ""
-
-//     for (let j = a; j >= i; j -= 2) {
-
-//         star = star + " ";
+// let a=8;                     // question =6
+// for (let i = 1; i <=a; i++) {
+//     let r=""
+//     for (let j = a-1; j >=i; j--) {
+//     r+=" "
+        
 //     }
-//     for (let k = 1; k <= i; k++) {
-//         star += "*";
+//     for (let k = 1; k <=i*2-1; k++) {
+//         r+="*"
+        
 //     }
-//     console.log(star);
+//     console.log(r);
+    
 // }
-// for (let i = a - 2; i >= 1; i -= 2) {
-//     let row = "";
-//     for (let j = a; j >= i; j -= 2) {
-//         row += " ";
-//     }
-//     for (let k = 1; k <= i; k++) {
-//         row += "*";
 
-//     }
-//     console.log(row);
+// for (let i = a-1; i >=1; i--) {
+//   let r=""
+// for (let j = a-1; j >=i; j--) {
+//     r+=" "
+    
 // }
+// for (let k = 1; k <=i*2-1; k++) {
+//     r+="*"
+    
+// }
+// console.log(r);
+
+// }
+
+
+
+
+
+
+// let a=10;                  //ques=1
+// for (let i = 1; i <=a; i++) {
+//     console.log(i);
+    
+// }
+
+// let a=20;          // ques=2
+// for (let i = 1; i <=a; i+=2) {
+    
+//     console.log(i);
+    
+// }
+
+
+// let a=5                 //ques=3
+// for (let i = 1; i <=a; i++) {
+    
+//     console.log(i*i);
+    
+// }
+
+
+// let a=100;             // ques=4
+// for (let i = 1; i <=a; i++) {
+//     if(i%5==0){
+//         console.log(i);
+//     }
+   
+    
+// }
+
+
+
+// let a=0;              //ques=5
+// let b=1;
+// for (let i = 1; i <=10; i++) {
+   
+ 
+//     let c=a+b;
+//     a=b;
+//     b=c;
+//     console.log(c)
+// }
+
+
+// for (let i = 1; i <= 5; i++) {              //    // question=6
+//         let rowstar = "";
+    
+//         for (let j =0; j < i; j++) {
+//             rowstar += "*"
+//         }
+//         console.log(rowstar);
+    
+//     }
+
+
+
+
+
+
+
+
+// let a= 10;              //ques=7
+// for (let i = 1; i <=10; i++) {
+//     console.log(i*7); 
+// }
+
+
+// const a="rajat";        //ques=8
+// for (let i = 0; i <a.length; i++) {
+//     console.log(a[i]);  
+//  }
+
+
+
+// let a=50;     //ques=9
+// let sum=0;
+// for (let i = 2; i <=50; i+=2) {
+//     sum+=i
+// }
+// console.log(sum);
+
+
+
+//  let a=3               //ques=10
+// for (let i = 1; i <=a; i++) {
+//     let star=""
+//     for (let j = 1; j <=a-i; j++) {
+//         star+=" "  
+//     }
+//     for (let k = 1; k <=i; k++) {
+//         star+=k
+//     }
+//    for (let k = i-1; k >=1; k--) {
+//     star+=k
+    
+//    }
+//    console.log(star);
+   
+    
+// }
+
+
+

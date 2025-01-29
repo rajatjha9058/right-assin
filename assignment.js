@@ -475,3 +475,63 @@
 
 
 
+
+
+
+
+
+// let a=document.getElementById("btn1")         //ques=1
+// let b=document.getElementById("para1")
+// a.addEventListener("click",()=>{
+//     if(b.innerHTML===""){
+// a.textContent="Clicked"
+// b.innerHTML="   "
+//     }else{
+//         b.innerHTML=""
+//         a.textContent="Click Me"
+//     }
+// })
+
+
+
+
+// const hover=document.getElementById('coh');       //ques=2
+// hover.addEventListener("mouseover",()=>{
+//     hover.style.backgroundColor ="red";
+// })
+// hover.addEventListener("mouseout",()=>{
+//     hover.style.backgroundColor ="lightgray";
+// })
+
+
+
+// let a=document.getElementById("input")       //ques=3
+// let b=document.getElementById("para")
+// a.addEventListener("input",()=>{
+//    b.innerHTML=a.value;
+// })
+
+
+
+// const clickBtn = document.getElementById('clickMe');       //ques=4
+// const disableBtn = document.getElementById('disableClick');
+
+
+// function mainclick() {
+//     alert('Button Clicked!');
+// }
+
+// clickBtn.addEventListener("click", mainclick);
+
+// disableBtn.addEventListener("click", () => {
+//     clickBtn.removeEventListener("click", mainclick);
+//     alert("Click event disabled!");
+// });
+
+
+
+// document.addEventListener("keydown", (event) => {      //quse=5
+//     if (event.key === "Enter") { 
+//         alert("Enter key was pressed!");
+//     }
+// });

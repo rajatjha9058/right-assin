@@ -535,3 +535,94 @@
 //         alert("Enter key was pressed!");
 //     }
 // });
+
+
+
+
+
+// <-----------------------13/02/25 ---------------------->
+
+
+// let arr1=[1,2,3]                    // // question =1
+// let arr2=[4,5,6]
+// function merge(arr1,arr2) {
+//     let newarr=[...arr1,...arr2]
+//     return newarr
+// }
+// console.log(merge(arr1,arr2));
+
+
+
+// const person = { name: "Alice", age: 25 }       // // question=2
+
+// function Modify () {
+//     let newarr={...person,age:30}
+//     return newarr
+// }
+// console.log(Modify());
+
+
+
+// function multiple(...arr) {              // // question=3
+//  let result=arr.reduce((ele,i)=>ele+i,0)
+//  return result
+// }
+// console.log(multiple(5,10,15,20));
+
+
+// const numbers = [1, 2, 3, 4, 5, 6];       // // question=4
+// let [A,B,...c]=numbers;
+// console.log((`first = ${A} second = ${B} rest = [${c}]`));
+
+
+
+// const obj1 = { a: 1, b: 2 };           // // question=5
+// const obj2 = { c: 3, d: 4 };
+// function Combining (obj1,obj2) {
+//     let newobj={...obj1,...obj2}
+//     return newobj;
+
+// }
+// console.log(Combining(obj1,obj2));
+
+
+
+// const user = { id: 101, name: "John", role: "Admin" }    // // question=6
+  
+// function Removing() {
+//     let {role,...newuser}=user
+//     return newuser
+// }
+// console.log(Removing());
+
+
+
+
+// const numbers = [45, 78, 12, 89, 23];      // // question =7
+// function  Finding() {
+//     let newarr=Math.max(...numbers)
+//     return newarr
+
+// }
+// console.log(Finding());
+
+
+// function greet(firstName, ...messages) {          // // question=8
+//     messages.forEach((e)=>console.log(`${firstName}--${e}`))
+//     }
+//     greet("Alice", "Hello", "Good Morning", "How are you?");
+    
+
+
+
+// let x = "apple", y = "banana";    // // question=9
+// [x,y]=[y,x]
+// console.log("x=",x);
+// console.log("y=",y);
+
+
+;
+
+// const nestedArr = [1, [2, 3], [4, 5, [6, 7]]];                 // question=10
+// console.log([...nestedArr].flat(2));
+

@@ -621,8 +621,107 @@
 // console.log("y=",y);
 
 
-;
-
 // const nestedArr = [1, [2, 3], [4, 5, [6, 7]]];                 // question=10
 // console.log([...nestedArr].flat(2));
+
+
+
+
+
+
+
+
+
+
+// <-----------------------15/02/25---------------------->
+
+// const smallest=(array,k)=>{                      // // question=1
+//     for (let i = 0; i < array.length; i++) {
+//     for (let j = array.length-1; j>i; j--) {
+//     if (array[j]>array[j-1]) {
+//     [array[j],array[j-1]]=[array[j-1],array[j]]
+//     }
+//     }
+//     }
+//     return array[k-1]
+//     }
+// const arr = [[3, 5, 1], [12, 7, 9], [14, 10, 4]];
+// let array=arr.flat(2);
+//     const k=3
+//     console.log(smallest(array,k))
+
+
+
+
+
+// let arr=[1,2,4,5,6]               // // question=2
+// function missing(arr) {
+//      let n=arr.length
+//      let  sumofarray=0
+//      let sumofnaturalno= (n * (n + 1)) / 2
+
+
+//      for (let i = 0; i < arr.length; i++) {
+//          sumofarray+=arr[i]
+         
+//     }
+//      return sumofarray-sumofnaturalno
+// }
+// console.log(missing(arr));
+
+
+
+
+
+// const arr1 = [1, 2, 3];                     // // question=3
+// const arr2 = [4, 5, 6];
+// function ra(arr1,arr2) {
+//     let newarr=[...arr1,...arr2]
+//     return  newarr
+// }
+// console.log(ra(arr1,arr2));
+
+
+
+
+
+// const str = "JavaScript is great and JavaScript is fun!";        // // question=4
+// let newstr = str.split(" ");
+// let obj={}
+
+// function words(newstr) {
+//     for (let i = 0; i < newstr.length; i++) {
+//         if (obj[newstr[i]]) {
+//            console.log(newstr[i])
+//            break;
+//         }else{
+//             obj[newstr[i]]=1
+//         }
+        
+//         }
+
+// }
+
+// words(newstr)
+
+
+
+
+// const arr = [2, 7, 11, 15];           // // question=5
+
+// function sum(arr,tar) {
+//     for (let i = 0; i < arr.length; i++) {
+//         for (let j = i; j < arr.length; j++) {
+//             if (arr[i]+arr[j]==tar) {
+//                 console.log([i,j]);   
+//             }
+//         }
+//     }
+// }
+
+// sum(arr,9)
+
+
+
+
 

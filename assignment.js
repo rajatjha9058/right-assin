@@ -704,6 +704,22 @@
 
 // words(newstr)
 
+let str="i am software developer"
+
+let newarr=str.split(" ")
+for (let i = 0; i < newarr.length; i++) {
+    if(i===0){
+        console.log(newarr[i]);
+        
+    }else if(i===newarr.length-1){
+console.log(newarr[i]);
+
+
+    }
+    
+}
+// console.log();
+
 
 
 
@@ -720,6 +736,431 @@
 // }
 
 // sum(arr,9)
+
+
+
+
+
+
+
+
+
+
+
+
+//// <-----------------19/02/2025-------------------->
+
+
+
+
+// let arr=[1,2,3,4,5]        // //(1)Reverse the array
+// let temp=[]
+// for (let i = arr.length-1; i>=0; i--) {
+//     temp.push(arr[i])
+    
+// }
+// console.log(temp);
+
+
+
+// let arr=[1,2,3,4,5,6,7,8,9]           // //(2)Maximum and Minimum in an array
+// let min=arr[0]
+// let max=arr[0]
+// for (let i = 0; i < arr.length; i++) {
+//     if(max<arr[i]){
+// max=arr[i]
+//     }else if(arr[i]<min){
+// min=arr[i]
+//     }
+    
+// }
+// console.log(min);
+// console.log(max);
+
+
+
+
+// const arr=[ 8, 1, 3, 2, 6, 7]       // // (3)K th Max and Min in an array.
+// let k=2
+// function find(arr,k) {
+    
+
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = arr.length-1; j >i; j--) {
+//         if(arr[j]>arr[j-1]){
+// [arr[j],arr[j-1]]=[arr[j-1],arr[j]]
+//         }
+        
+//     }
+    
+// }
+// return arr[k-1]
+// }
+// console.log(find(arr,k));
+
+
+
+
+// let arr = [-1, 1, 1, -2, 1];          // // (4)Move all negative elements to one side of the array. move negative values left side
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = arr.length; j >0; j--) {
+//         if(arr[j]>arr[j-1]){
+//             [arr[j],arr[j-1]]=[arr[j-1],arr[j]]
+//         }
+        
+//     }
+    
+// }
+// console.log(arr);
+
+
+
+
+// let arr=[-2,1,-3,4,-1,2,1,-5,4]          // //   6)Find the largest sum of a contiguous subarray
+
+// let currentsum=0
+// let maxsum=arr[0]
+// for (let i = 0; i < arr.length; i++) {
+//     currentsum=Math.max(arr[i],currentsum+arr[i])
+//     maxsum=Math.max(maxsum,currentsum)
+    
+// }
+// console.log(maxsum);
+
+
+
+
+// const arr=[2,5,9,6,3,8,9,7,1]              // //(7)Find duplicates in an array of N+1 integers.
+    
+
+// let temp=[]
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = arr.length; j>0; j--) {
+//        if(arr[j]>arr[j-1]){
+// [arr[j],arr[j-1]]=[arr[j-1],arr[j]]
+//        }
+        
+//     }
+    
+// }
+// for (let i = 0; i < arr.length; i++) {
+//     if(arr[i]=arr[i+1]){
+// temp.push(arr[i])
+//     }
+    
+// }
+// console.log(temp);
+
+
+
+
+    // let arr1=[1,3,5,7]       // //  (8)Merge two sorted arrays without using extra space
+    // let arr2=[0,2,6,8,9]
+    // let n1=arr1.length
+    // let n2=arr2.length
+    // let i=0
+    // let j=0
+    // while (i<n1) {
+    //     if(arr1[i]>arr2[i]){
+    // [arr1[i],arr2[j]]=[arr2[j],arr1[i]]
+    //     }
+    //     i++
+        
+    // }
+    // console.log(arr1.concat(arr2).sort((a,b)=>a-b));
+
+
+
+// const arr = [8, 4, 2, 1];       // //  (9)Count Inversion
+// let temp=[]
+// let count=0
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = i; j < arr.length; j++) {
+//         if (arr[i]>arr[j]) {
+//             count++;
+//             temp.push([arr[i],arr[j]])
+//         }
+        
+//     }
+    
+// }
+// console.log(temp);
+
+
+
+
+// let arr=[7,1,5,3,6,4]           // // (10)Best time to buy or sell stock.
+// // let profit=0
+//  let min=arr[0]
+// let maxprofit=0
+// function subarray(arr) {
+// for (let i = 0; i < arr.length; i++) {
+
+//        if(arr.length===0){
+//         return 0
+//     }
+//     min=Math.min(arr[i],min)
+//     min=arr[i]-min
+//     maxprofit=Math.max(maxprofit,min)
+    
+// }
+// return maxprofit
+// }   
+// console.log(subarray(arr));
+
+   
+// const arr = [7, 1, 5, 3, 6, 4];        // // (11)Find pair of elements whose sum is equal to K.
+
+// const k = 10;
+//  let count=0
+// let tem=[]
+// for (let i = 0; i < arr.length; i++) {
+//      for (let j = i+1; j < arr.length; j++) {
+//         if(arr[i]+arr[j]===k){
+//          count++;
+//          tem.push([arr[i],arr[j]])
+//         }
+        
+//      }
+    
+// }
+// console.log(tem);
+
+
+
+
+// const arr1 = [7, 1, 5, 3, 6, 4];      // // 12)Find common elements in 3 sorted arrays.
+
+// const arr2 = [1, 3, 6, 8, 3, 0];
+// const arr3 = [1, 3, 9, 1, 2, 0];
+
+// let newarr=new Set([...arr1])
+// let newarr1=new Set ([...arr2])
+// let newarr2= new Set([...arr3])
+// let result=[...newarr].filter((ele)=>newarr1.has(ele)&&newarr2.has(ele))
+
+// console.log(result);
+
+
+
+
+
+// const arr = [1, 2, 4, 5, 6, 2];        // //   (20)find max sum
+
+
+// let maxsum=arr[0]
+// let currentsum=arr[0]
+// for (let i = 0; i < arr.length; i++) {
+//      currentsum=Math.max(arr[i],currentsum+arr[i])
+//     maxsum=Math.max(maxsum,currentsum)
+    
+// }
+// console.log(maxsum);
+
+
+
+
+// const arr=[1,2,3,5]        // // (25) find frist and last elements in arry    
+
+// let temp=[]
+// for (let i = 0; i < arr.length; i++) {
+//     if(i===0){
+// temp.push(arr[i])
+//     }else if(i===arr.length-1){
+// temp.push(arr[i])
+//     }
+    
+// }
+// console.log(temp);
+
+
+
+
+// const arr1=[1,2,3,5];          // //   26)find missing number
+
+// let n=arr1.length
+// let sumofarray=0
+// let sumofnaturalno=(n+1)*(n+2)/2
+
+
+// function missing(arr1) {
+    
+
+// for (let i = 0; i < arr1.length; i++) {
+//    sumofarray+=arr1[i]
+   
+// }
+// return sumofnaturalno-sumofarray
+// }
+// console.log(missing(arr1));
+
+
+
+// let n1=[[1],[2]]
+// let n2=[3,[4,5]];
+// let  newarr=n2.concat(n1).flatMap((itam)=>itam)
+// let b=newarr.sort((a,b)=>b.a)
+// console.log(b);
+
+
+
+
+// //string ke question
+
+
+
+
+
+
+
+
+
+
+// let str1 ='aafffeeeeccc'         // // (2) find occurrence
+
+// let d1={}
+// function occurrence() {
+//     for (let i = 0; i < str1.length; i++) {
+//         if(d1[str1[i]]){
+//           d1[str1[i]]+=1
+//         }else{
+//             d1[str1[i]]=1
+//         } 
+//     }
+   
+//     return  d1  
+// }
+// console.log(occurrence());
+
+
+
+
+// let arr = [1, 1, 2, 2, 3, 3, 4, 4, 5, 6, 6];     // //   (3)find whose element in arry occuring only one time
+// let obj={}
+// for (let i = 0; i < arr.length; i++) {
+    
+//     if(obj[arr[i]]){
+//         obj[arr[i]]+=1
+
+//     }else{
+//         obj[arr[i]]=1
+//     }   
+// }
+
+// for(let key in obj){
+//     if(obj[key]===2){
+//     console.log(key);
+    
+//     }
+// }
+
+
+
+// let arr = [1, 1,1, 2, 2,3,3,3,4 ];       // // (4) remove whose element 2 occur
+
+// let obj={}
+// for (let i = 0; i < arr.length; i++) {
+//      if(obj[arr[i]]){
+// obj[arr[i]]+=1
+//      }else{
+//         obj[arr[i]]=1
+//      }
+    
+// }
+// let temp=[]
+// for (let i = 0; i < arr.length; i++) {
+//      if(obj[arr[i]]!==2){
+// temp.push(arr[i])
+//      }
+    
+// }
+// console.log(temp);
+
+
+
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8];      // //  binary search questions
+
+// let start=0
+// let and=arr.length-1
+
+// function binary(arr,target) {
+    
+
+// while (start<=and) {
+//     let mid=Math.floor((start+and)/2)
+//     if(arr[mid]===target){
+// return mid;
+
+//     }else if(arr[mid]>target){
+// and=mid-1;
+//     }else{
+//         start=mid+1
+//     }
+    
+// }
+// return -1
+// }
+// console.log(binary(arr,6));
+
+
+
+
+// let arr=[2,7,11,15]     // //  (9) Two Sum
+// let target=9
+// let temp=[]
+// for (let i = 0; i < arr.length; i++) {
+//      for (let j = i; j < arr.length; j++) {
+//     if(arr[i]+arr[j]===target){
+// temp.push(i,j)
+//     }
+        
+//      }
+    
+// }
+// console.log(temp);
+
+
+
+
+// let str="abccccdd"       // // 7)Write a program to find the longest Palindrome in a string.* Longest palindromic Substring
+
+//  let str1=str.split("")
+//  let d1={}
+//  let length=0
+//  let flag=false
+//  function palindrom() {
+    
+ 
+//  for (let i = 0; i < str1.length; i++) {
+//     if(d1[str1[i]]){
+//       d1[str1[i]]+=1
+//     }else{
+//         d1[str1[i]]=1
+//     }
+    
+//  }
+
+//  for(let key in  d1){
+//  if(d1[key]%2===0){
+// length+=d1[key]
+//  }else{
+//     length+=d1[key]-1
+//     flag=true
+//  }
+
+//  }
+// if(flag){
+// length++
+// }
+//  return length
+//  }
+// console.log(palindrom());
+
+
+
+ 
+
 
 
 

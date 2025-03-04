@@ -345,16 +345,16 @@
 
 // while(i>=0){
 //     b +=a[i]
-    
+
 //   i--
 //         }
-        
+
 //         if (b==a) {
 //             console.log("palindrome");
-            
+
 //         }else{
 //             console.log("it is not palindrome");
-            
+
 //         }
 
 
@@ -588,7 +588,7 @@
 
 
 // const user = { id: 101, name: "John", role: "Admin" }    // // question=6
-  
+
 // function Removing() {
 //     let {role,...newuser}=user
 //     return newuser
@@ -611,7 +611,7 @@
 //     messages.forEach((e)=>console.log(`${firstName}--${e}`))
 //     }
 //     greet("Alice", "Hello", "Good Morning", "How are you?");
-    
+
 
 
 
@@ -663,7 +663,7 @@
 
 //      for (let i = 0; i < arr.length; i++) {
 //          sumofarray+=arr[i]
-         
+
 //     }
 //      return sumofarray-sumofnaturalno
 // }
@@ -697,28 +697,30 @@
 //         }else{
 //             obj[newstr[i]]=1
 //         }
-        
+
 //         }
 
 // }
 
 // words(newstr)
 
-let str="i am software developer"
+// let str="i am software developer"
 
-let newarr=str.split(" ")
-for (let i = 0; i < newarr.length; i++) {
-    if(i===0){
-        console.log(newarr[i]);
-        
-    }else if(i===newarr.length-1){
-console.log(newarr[i]);
+// let newarr=str.split(" ")
+// for (let i = 0; i < newarr.length; i++) {
+//     if(i===0){
+//         console.log(newarr[i]);
+
+//     }else if(i===newarr.length-1){
+// console.log(newarr[i]);
 
 
-    }
-    
-}
+//     }
+
+// }
 // console.log();
+
+
 
 
 
@@ -757,7 +759,7 @@ console.log(newarr[i]);
 // let temp=[]
 // for (let i = arr.length-1; i>=0; i--) {
 //     temp.push(arr[i])
-    
+
 // }
 // console.log(temp);
 
@@ -772,7 +774,7 @@ console.log(newarr[i]);
 //     }else if(arr[i]<min){
 // min=arr[i]
 //     }
-    
+
 // }
 // console.log(min);
 // console.log(max);
@@ -783,16 +785,16 @@ console.log(newarr[i]);
 // const arr=[ 8, 1, 3, 2, 6, 7]       // // (3)K th Max and Min in an array.
 // let k=2
 // function find(arr,k) {
-    
+
 
 // for (let i = 0; i < arr.length; i++) {
 //     for (let j = arr.length-1; j >i; j--) {
 //         if(arr[j]>arr[j-1]){
 // [arr[j],arr[j-1]]=[arr[j-1],arr[j]]
 //         }
-        
+
 //     }
-    
+
 // }
 // return arr[k-1]
 // }
@@ -807,9 +809,9 @@ console.log(newarr[i]);
 //         if(arr[j]>arr[j-1]){
 //             [arr[j],arr[j-1]]=[arr[j-1],arr[j]]
 //         }
-        
+
 //     }
-    
+
 // }
 // console.log(arr);
 
@@ -823,7 +825,7 @@ console.log(newarr[i]);
 // for (let i = 0; i < arr.length; i++) {
 //     currentsum=Math.max(arr[i],currentsum+arr[i])
 //     maxsum=Math.max(maxsum,currentsum)
-    
+
 // }
 // console.log(maxsum);
 
@@ -831,7 +833,7 @@ console.log(newarr[i]);
 
 
 // const arr=[2,5,9,6,3,8,9,7,1]              // //(7)Find duplicates in an array of N+1 integers.
-    
+
 
 // let temp=[]
 // for (let i = 0; i < arr.length; i++) {
@@ -839,35 +841,35 @@ console.log(newarr[i]);
 //        if(arr[j]>arr[j-1]){
 // [arr[j],arr[j-1]]=[arr[j-1],arr[j]]
 //        }
-        
+
 //     }
-    
+
 // }
 // for (let i = 0; i < arr.length; i++) {
 //     if(arr[i]=arr[i+1]){
 // temp.push(arr[i])
 //     }
-    
+
 // }
 // console.log(temp);
 
 
 
 
-    // let arr1=[1,3,5,7]       // //  (8)Merge two sorted arrays without using extra space
-    // let arr2=[0,2,6,8,9]
-    // let n1=arr1.length
-    // let n2=arr2.length
-    // let i=0
-    // let j=0
-    // while (i<n1) {
-    //     if(arr1[i]>arr2[i]){
-    // [arr1[i],arr2[j]]=[arr2[j],arr1[i]]
-    //     }
-    //     i++
-        
-    // }
-    // console.log(arr1.concat(arr2).sort((a,b)=>a-b));
+// let arr1=[1,3,5,7]       // //  (8)Merge two sorted arrays without using extra space
+// let arr2=[0,2,6,8,9]
+// let n1=arr1.length
+// let n2=arr2.length
+// let i=0
+// let j=0
+// while (i<n1) {
+//     if(arr1[i]>arr2[i]){
+// [arr1[i],arr2[j]]=[arr2[j],arr1[i]]
+//     }
+//     i++
+
+// }
+// console.log(arr1.concat(arr2).sort((a,b)=>a-b));
 
 
 
@@ -880,9 +882,9 @@ console.log(newarr[i]);
 //             count++;
 //             temp.push([arr[i],arr[j]])
 //         }
-        
+
 //     }
-    
+
 // }
 // console.log(temp);
 
@@ -902,13 +904,13 @@ console.log(newarr[i]);
 //     min=Math.min(arr[i],min)
 //     min=arr[i]-min
 //     maxprofit=Math.max(maxprofit,min)
-    
+
 // }
 // return maxprofit
 // }   
 // console.log(subarray(arr));
 
-   
+
 // const arr = [7, 1, 5, 3, 6, 4];        // // (11)Find pair of elements whose sum is equal to K.
 
 // const k = 10;
@@ -920,9 +922,9 @@ console.log(newarr[i]);
 //          count++;
 //          tem.push([arr[i],arr[j]])
 //         }
-        
+
 //      }
-    
+
 // }
 // console.log(tem);
 
@@ -953,7 +955,7 @@ console.log(newarr[i]);
 // for (let i = 0; i < arr.length; i++) {
 //      currentsum=Math.max(arr[i],currentsum+arr[i])
 //     maxsum=Math.max(maxsum,currentsum)
-    
+
 // }
 // console.log(maxsum);
 
@@ -969,7 +971,7 @@ console.log(newarr[i]);
 //     }else if(i===arr.length-1){
 // temp.push(arr[i])
 //     }
-    
+
 // }
 // console.log(temp);
 
@@ -984,11 +986,11 @@ console.log(newarr[i]);
 
 
 // function missing(arr1) {
-    
+
 
 // for (let i = 0; i < arr1.length; i++) {
 //    sumofarray+=arr1[i]
-   
+
 // }
 // return sumofnaturalno-sumofarray
 // }
@@ -1027,7 +1029,7 @@ console.log(newarr[i]);
 //             d1[str1[i]]=1
 //         } 
 //     }
-   
+
 //     return  d1  
 // }
 // console.log(occurrence());
@@ -1038,7 +1040,7 @@ console.log(newarr[i]);
 // let arr = [1, 1, 2, 2, 3, 3, 4, 4, 5, 6, 6];     // //   (3)find whose element in arry occuring only one time
 // let obj={}
 // for (let i = 0; i < arr.length; i++) {
-    
+
 //     if(obj[arr[i]]){
 //         obj[arr[i]]+=1
 
@@ -1050,7 +1052,7 @@ console.log(newarr[i]);
 // for(let key in obj){
 //     if(obj[key]===2){
 //     console.log(key);
-    
+
 //     }
 // }
 
@@ -1065,14 +1067,14 @@ console.log(newarr[i]);
 //      }else{
 //         obj[arr[i]]=1
 //      }
-    
+
 // }
 // let temp=[]
 // for (let i = 0; i < arr.length; i++) {
 //      if(obj[arr[i]]!==2){
 // temp.push(arr[i])
 //      }
-    
+
 // }
 // console.log(temp);
 
@@ -1085,7 +1087,7 @@ console.log(newarr[i]);
 // let and=arr.length-1
 
 // function binary(arr,target) {
-    
+
 
 // while (start<=and) {
 //     let mid=Math.floor((start+and)/2)
@@ -1097,7 +1099,7 @@ console.log(newarr[i]);
 //     }else{
 //         start=mid+1
 //     }
-    
+
 // }
 // return -1
 // }
@@ -1114,9 +1116,9 @@ console.log(newarr[i]);
 //     if(arr[i]+arr[j]===target){
 // temp.push(i,j)
 //     }
-        
+
 //      }
-    
+
 // }
 // console.log(temp);
 
@@ -1130,15 +1132,15 @@ console.log(newarr[i]);
 //  let length=0
 //  let flag=false
 //  function palindrom() {
-    
- 
+
+
 //  for (let i = 0; i < str1.length; i++) {
 //     if(d1[str1[i]]){
 //       d1[str1[i]]+=1
 //     }else{
 //         d1[str1[i]]=1
 //     }
-    
+
 //  }
 
 //  for(let key in  d1){
@@ -1159,10 +1161,297 @@ console.log(newarr[i]);
 
 
 
- 
+
+
+
+
+// <----------------------28/02/2025--------------------->
+
+
+
+// class Node {                  // // question=1
+//     constructor(data) {
+//         this.data=data
+//         this.next=null
+//     }
+// }
+// let temp=new Node(10)
+
+// let a=new Node(1)
+// let b=new Node(2)
+// let c=new Node(3)
+// let d=new Node(4)
+// let e=new Node(5)
+// let f=new Node(6)
+
+
+// a.next=b
+// b.next=c
+// c.next=d
+// d.next=e
+// e.next=f
+
+
+// let head=a
+// let current=head
+
+// if(current!=null){
+// temp.next=current
+// current=temp
+// }
+// while (current!=null) {
+//     console.log(current.data);
+//     current=current.next
+
+// }
 
 
 
 
 
+// class Node {                     // // question =2
+//     constructor(data) {
+//         this.data=data
+//         this.next=null
+//     }
+// }
+
+// let temp=new Node(10)
+
+// let a=new Node(1)
+// let b=new Node(2)
+// let c=new Node(3)
+// let d=new Node(4)
+// let e=new Node(5)
+// let f=new Node(6)
+
+// a.next=b
+// b.next=c
+// c.next=d
+// d.next=e
+// e.next=f
+
+// let head=a
+// let current=head
+
+// while (current!=null) {
+//     console.log(current.data);
+//     current=current.next
+
+// }
+// temp.next=current
+// current=temp
+// console.log(current.data);
+
+
+
+
+
+// class Node {                         // // question=3
+//     constructor(data) {
+//           this.data=data
+//           this.next=null
+//     }
+// }
+
+// let temp=new Node(10)
+
+// let a=new Node(1)
+// let b=new Node(2)
+// let c=new Node(3)
+// let d=new Node(4)
+// let e=new Node(5)
+// let f=new Node(6)
+
+
+// a.next=b
+// b.next=c
+// c.next=d
+// d.next=e
+// e.next=f
+
+// let head=a
+// let current=head
+
+// let k=2
+// while (current!=null&&current.data!=k) {
+//     console.log(current.data);
+//     current=current.next
+// }
+// // current.next=current.next.next
+// temp.next=current.next
+// current.next=temp
+// head=current
+// while (current!=null) {
+//      console.log(current.data);
+//       current=current.next
+// }
+
+
+
+
+
+// class Node {                         // // question=4
+//     constructor(data) {
+//         this.data = data
+//         this.next = null
+//     }
+// }
+
+// let temp = new Node(10)
+
+// let a = new Node(1)
+// let b = new Node(2)
+// let c = new Node(3)
+// let d = new Node(4)
+// let e = new Node(5)
+// let f = new Node(6)
+
+// a.next = b
+// b.next = c
+// c.next = d
+// d.next = e
+// e.next = f
+
+// let head = a
+// let current = head
+
+// if (current != null) {
+//     current = current.next
+// }
+
+// while (current != null) {
+//     console.log(current.data);
+//     current = current.next
+// }
+
+
+
+
+
+
+// class Node {                         // // question=6
+//     constructor(data) {
+//         this.data = data
+//         this.next = null
+//     }
+// }
+
+// let temp = new Node(10)
+
+// let a = new Node(1)
+// let b = new Node(2)
+// let c = new Node(3)
+// let d = new Node(4)
+// let e = new Node(5)
+// let f = new Node(6)
+
+// a.next = b
+// b.next = c
+// c.next = d
+// d.next = e
+// e.next = f
+
+// let head = a
+// let current = head
+
+
+// function remove(k,current) {
+//     while (current.next.next!=null&&current.data!=k) {
+//           console.log(current.data);
+//           current=current.next
+//     }
+//     current.next=current.next.next
+//     head=current
+//     while (current!=null) {
+//         console.log(current.data);
+//         current=current.next
+        
+//     }
+// }
+// remove(5,current)
+
+
+
+
+
+
+
+// // <------------------03/03/2025---------------->
+
+
+
+
+// class node{
+//     constructor(data){                          // Q-1
+//         this.data=data
+//         this.next=null
+//     }
+//     }
+    
+//     let a=new node(10)
+//     let b=new node(20)
+//     let c=new node(30)
+//     let d=new node(40)
+//     let e=new node(50)
+    
+//     a.next=b
+//     b.next=c
+//     c.next=d
+//     d.next=e
+    
+//     let head=a
+//     let current=head
+//     let count=0
+    
+//     while (current!==null) {
+//         count++;
+//         current=current.next
+//     }
+    
+//     let res=Math.floor(count/2)
+    
+//     current=head
+    
+//     for (let i = 0; i < res; i++) {
+//         current=current.next
+//     }
+    
+//     console.log(current.data);
+
+
+
+
+
+// class node{
+//     constructor(value){                                        // Q-2
+//         this.value=value
+//         this.next=null
+//     }
+// }
+
+// let first=new node(1)
+// let second=new node(2)
+// let third=new node(3)
+// let four=new node(4)
+// let five=new node(5)
+
+
+// first.next=second
+// second.next=third
+// third.next=four
+// four.next=five
+
+// let head=first
+// let curent=head
+// let arr=[]
+
+// while (curent!==null) {
+//     arr.push(curent.value)
+//     curent=curent.next
+// }
+
+// for (let i = arr.length-1; i>=0; i--) {
+// console.log(arr[i]);
+// }
 
